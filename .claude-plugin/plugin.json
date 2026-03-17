@@ -5,8 +5,5 @@
   "author": {
     "name": "Bradley Butcher"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Bradley-Butcher/dev-layout"
-  }
+  "repository": "https://github.com/Bradley-Butcher/dev-layout"
 }
