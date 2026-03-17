@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "dev-layout",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "Bradley-Butcher/dev-layout"
+      },
       "description": "Generate a tmux dev layout script with your preferred pane setup",
       "version": "1.0.0",
       "author": {
