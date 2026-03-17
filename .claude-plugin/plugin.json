@@ -1,0 +1,12 @@
+{
+  "name": "dev-layout",
+  "description": "Generate a tmux dev layout script with your preferred pane setup",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bradley Butcher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bradley-Butcher/dev-layout"
+  }
+}

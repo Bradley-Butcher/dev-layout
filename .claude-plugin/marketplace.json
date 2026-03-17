@@ -1,0 +1,22 @@
+{
+  "name": "dev-layout",
+  "owner": {
+    "name": "Bradley Butcher"
+  },
+  "metadata": {
+    "description": "A tmux dev layout generator plugin for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "dev-layout",
+      "source": ".",
+      "description": "Generate a tmux dev layout script with your preferred pane setup",
+      "version": "1.0.0",
+      "author": {
+        "name": "Bradley Butcher"
+      },
+      "keywords": ["tmux", "dev", "layout"],
+      "category": "productivity"
+    }
+  ]
+}
