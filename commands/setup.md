@@ -40,11 +40,19 @@ Wait for their answer before proceeding.
 
 ## Step 2: Ask about the bottom-left pane
 
-Ask the user what they want in the bottom-left pane. Suggest options like:
+Ask the user what they want in the bottom-left pane:
 
-1. **claude** — Claude Code CLI
-2. **terminal** — a plain shell (no command sent)
-3. **Custom command** — any command they want to run
+1. **claude** — Claude Code CLI (`claude`)
+2. **codex** — OpenAI Codex CLI (`codex`)
+
+Wait for their answer before proceeding.
+
+## Step 2b: Ask about dangerous mode
+
+Ask the user if they want to run in autonomous/dangerous mode (skipping permission prompts). Explain that this means the tool will execute actions without asking for confirmation.
+
+- If they chose **claude**, append `--dangerously-skip-permissions` to the command
+- If they chose **codex**, append `--yolo` to the command
 
 Wait for their answer before proceeding.
 
